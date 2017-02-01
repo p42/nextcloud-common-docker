@@ -23,6 +23,6 @@ mv /var/www/html/apps /usr/src/nextcloud/ && \
 mv /var/www/html/config /usr/src/nextcloud/ && \
 rm nextcloud.tar.bz2
 
-COPY container-files /
+#COPY container-files /
 
 ENTRYPOINT ["/init"]
