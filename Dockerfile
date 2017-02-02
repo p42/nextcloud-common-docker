@@ -1,4 +1,4 @@
-FROM project42/s6-alpine:1.18.1.5
+FROM project42/s6-alpine:latest
 MAINTAINER Jordan Clark jordan.clark@esu10.org
 
 ENV NEXTCLOUD_USER nc-data
